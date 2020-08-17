@@ -16,7 +16,11 @@
 ## Requirement
 * pip install pytest
 * pip install selenium
-* pip install pytest-html
+* pip install pytest-html.
+
+## Usage
+* pytest -v --html=Report.html (from the root directory)
+
 
 ## Technical guidance
 * The test should be implemented in python using selenium framework. see http://seleniumpython.readthedocs.io/installation.html. Make sure you read the section on Locating Elements and Waits
